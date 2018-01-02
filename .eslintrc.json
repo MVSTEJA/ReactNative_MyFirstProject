@@ -1,0 +1,29 @@
+{
+    "parser": "babel-eslint",
+    "extends": [
+        "airbnb",
+        "plugin:flowtype/recommended",
+        "plugin:react-native/all"
+    ],
+    "plugins": [
+        "react",
+        "react-native",
+        "flowtype"
+    ],
+    "env": {
+        "jest": true,
+        "react-native/react-native": true
+    },
+    "rules": {
+        "react/jsx-filename-extension": [
+            2,
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx"
+                ]
+            }
+        ],
+        "linebreak-style": "off"
+    }
+}
